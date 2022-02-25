@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,51 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>globalvar selected, canAct;
+            <string>globalvar wave, attack, wavebegin;
 
-selected = 0;
-canAct = true;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (keyboard_check_pressed(vk_left)) &amp;&amp; (canAct) selected--;
-
-if (keyboard_check_pressed(vk_right)) &amp;&amp; (canAct) selected++;
-
-if (selected &lt; 0) selected = 3;
-
-if (selected &gt; 3) selected = 0;
-
-if (keyboard_check_pressed(vk_enter)) &amp;&amp; (canAct) || (keyboard_check_pressed(ord("Z"))) &amp;&amp; (canAct) {
-
-switch(selected) {
-
-    case 0: canAct = false; attack = true; instance_create(x, y, oAttackBox); instance_create(x, y, oAttackBar); with(oTextbox) instance_destroy(); break;
-
-}
-
-}
-
-
+wave = false;
+wavebegin = false;
+attack = false;
 </string>
           </argument>
         </arguments>
