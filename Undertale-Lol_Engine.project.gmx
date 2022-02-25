@@ -23,6 +23,27 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_hud</font>
+    <font>fonts\fnt_textbox</font>
+  </fonts>
+  <objects name="objects">
+    <objects name="Box">
+      <object>objects\oBox</object>
+    </objects>
+    <objects name="Buttons">
+      <object>objects\oButtonFight</object>
+      <object>objects\oButtonAct</object>
+      <object>objects\oButtonItem</object>
+      <object>objects\oButtonMercy</object>
+    </objects>
+    <objects name="Handlers">
+      <object>objects\oSelect</object>
+    </objects>
+    <object>objects\oPlayer</object>
+    <object>objects\oHUD</object>
+    <object>objects\oTextbox</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
   </rooms>

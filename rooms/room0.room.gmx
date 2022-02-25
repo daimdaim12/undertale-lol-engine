@@ -53,8 +53,13 @@
   <instances>
     <instance objName="oHUD" x="8" y="4" name="inst_5FA9FF84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oPlayer" x="31" y="2" name="inst_E0264744" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBox" x="318" y="302" name="inst_1E249CB7" locked="0" code="" scaleX="1.07000005245209" scaleY="0.730000019073486" colour="4294967295" rotation="0"/>
-    <instance objName="oButtonFight" x="29" y="415" name="inst_D914B105" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBox" x="308" y="133" name="inst_1E249CB7" locked="0" code="" scaleX="1.07000005245209" scaleY="0.730000019073486" colour="4294967295" rotation="0"/>
+    <instance objName="oButtonFight" x="25" y="111" name="inst_D914B105" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSelect" x="53" y="2" name="inst_9D8954DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oButtonAct" x="69" y="89" name="inst_781D9D1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oButtonItem" x="137" y="115" name="inst_5F26D273" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oButtonMercy" x="81" y="150" name="inst_0F2D35B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oTextbox" x="78" y="4" name="inst_30CA7E95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
