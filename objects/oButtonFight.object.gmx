@@ -54,7 +54,7 @@ y = 415;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (selected == 0) {
+            <string>if (selected == 0) &amp;&amp; (canAct) {
 
 image_index = 1;
 
